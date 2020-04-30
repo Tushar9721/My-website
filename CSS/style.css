@@ -1,0 +1,153 @@
+
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1.2em;
+} 
+
+.pro{
+    font-weight: normal;
+    font-family: 'Merriweather', serif;
+    font-size: 1.8rem;
+    color: #66BFBF;
+}
+
+p{
+    font-weight: bold;
+    color: darkslategray;
+}
+
+hr{
+    border-style: none;
+    border-top-style:dotted ;     
+    border-color: lightgray;
+    border-width: 10px;       
+    width: 5%;
+}
+
+h1{
+
+    /*to write dynamic font size we need to write in % 100% is 16px so 90px/16  and also if we want to use em 1em = 16px =100%*/
+    /*rem means that it will not change the font size if we gice the font size to the body*/
+    font-size: 5.625rem;
+    color: #66BFBF;
+    margin: 40px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+}
+
+h2{
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3{
+    color: #11999E;
+    font-family: 'Merriweather', sans-serif;
+}
+
+
+.top-container{
+    position: relative;
+    background-color: #EAF6F6;
+    padding-top: 100px;
+
+}
+
+.contact-me{
+
+    line-height: 2;
+
+}
+
+
+.middle-container{
+  margin-top: 50px;
+}
+
+.bottom-container{
+   
+}
+
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto ;
+    text-align: left;
+    line-height: 2;
+}
+
+.bottom_cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.top_cloud{
+    position: absolute;
+    top: 50px;    
+    right: 300px;
+}
+.imageSize{
+    background-color: lightsteelblue;
+    border-radius: 50%;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+}
+
+.androidImage{
+    padding: 30px;
+    margin-right: 20px;
+    float: left;
+    border-radius: 50%;
+    width: 20%;
+
+}
+
+.javaImage{
+    padding: 30px;
+    float: right;
+    margin-right: 20px;
+    width: 20%;
+
+}
+
+.webImage{
+    padding: 30px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 20px;
+    width: 20%;
+
+}
+
+.photoImage{
+    padding: 30px;
+    float: right;
+    width: 20%;
+    margin-right: 20px;
+}
+
+
+
+.touch{
+
+    margin-top: 40px;
+
+}
+
+/**
+To move text below
+
+.skill-row-description-android{
+
+    clear: left;
+
+}
+
+.skill-row-description-java{
+
+    clear: right;
+
+}
+*/
