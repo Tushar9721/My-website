@@ -1,139 +1,181 @@
-
-body{
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    font-size: 1.2em;
-} 
-
-.pro{
-    font-weight: normal;
-    font-family: 'Merriweather', serif;
-    font-size: 1.8rem;
-    color: #66BFBF;
+body {
+  color: #40514e;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+  font-size: 1.2em;
 }
 
-p{
-    font-weight: bold;
-    color: darkslategray;
+p {
+  font-weight: bold;
+  line-height: 2;
 }
 
-hr{
-    border-style: none;
-    border-top-style:dotted ;     
-    border-color: lightgray;
-    border-width: 10px;       
-    width: 5%;
+hr {
+  margin: 100px auto;
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #eaf6f6;
+  border-width: 10px;
+  width: 5%;
 }
 
-h1{
-
-    /*to write dynamic font size we need to write in % 100% is 16px so 90px/16  and also if we want to use em 1em = 16px =100%*/
-    /*rem means that it will not change the font size if we gice the font size to the body*/
-    font-size: 5.625rem;
-    color: #66BFBF;
-    margin: 40px auto 0 auto;
-    font-family: 'Sacramento', cursive;
+h1 {
+  /*to write dynamic font size we need to write in % 100% is 16px so 90px/16  and also if we want to use em 1em = 16px =100%*/
+  /*rem means that it will not change the font size if we gice the font size to the body*/
+  font-size: 5.625rem;
+  color: #66bfbf;
+  margin: 40px auto 0 auto;
+  font-family: "Sacramento", cursive;
 }
 
-h2{
-    color: #66BFBF;
-    font-family: 'Montserrat', sans-serif;
+h2 {
+  font-size: 2rem;
+  color: #66bfbf;
+  font-family: "Montserrat", sans-serif;
+  padding-bottom: 1opx;
 }
 
-h3{
-    color: #11999E;
-    font-family: 'Merriweather', sans-serif;
+h3 {
+  color: #11999e;
+  font-family: "Merriweather", sans-serif;
 }
 
-
-.top-container{
-    position: relative;
-    background-color: #EAF6F6;
-    padding-top: 100px;
-
+.top-container {
+  position: relative;
+  background-color: #eaf6f6;
+  padding-top: 100px;
 }
 
-.contact-me{
+.contact-me {
+  line-height: 2;
+}
 
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px auto;
+}
+
+.pro {
+  font-weight: normal;
+  font-family: "Merriweather", serif;
+  font-size: 1.8rem;
+  color: #66bfbf;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.middle-container {
+  margin-top: 100px;
+}
+
+.bottom-container {
+  padding: 20px;
+  margin: 50px auto 0 auto;
+  background-color: #66bfbf;
+}
+
+.tag {
+  font-size: 1rem;
+  font-weight: normal;
+  color: white;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.bottom_cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top_cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+.imageSize {
+  background-color: lightsteelblue;
+  border-radius: 50%;
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+}
+
+.androidImage {
+    background-color: #40514e;
+  padding: 30px;
+  margin-right: 30px;
+  float: left;
+  border-radius: 50%;
+  width: 15%;
+}
+
+.javaImage {
+  padding: 30px;
+  float: right;
+  margin-right: 20px;
+  width: 20%;
+}
+
+.webImage {
+  padding: 30px;
+  float: left;
+  border-radius: 50%;
+  margin-right: 20px;
+  width: 20%;
+}
+
+.photoImage {
+    border-radius: 50%;
+    background-color: lightblue;
+  padding: 30px;
+  float: right;
+  width: 15%;
+  margin-right: 20px;
+}
+
+.footer-link {
     line-height: 2;
-
+  color: #11999e;
+  text-decoration-line: none;
+  margin: 30px;
 }
 
-
-.middle-container{
-  margin-top: 50px;
+.footer-link:hover {
+  color: white;
 }
 
-.bottom-container{
-   
+.touch {
+  margin-top: 40px;
 }
 
-.skill-row{
-    width: 50%;
-    margin: 100px auto 100px auto ;
-    text-align: left;
-    line-height: 2;
+.btn {
+  text-decoration-line: none;
+  margin: 30px;
+  border-radius: 10px;
+  color: #ffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  background-color: #11999e;
 }
 
-.bottom_cloud{
-    position: absolute;
-    left: 300px;
-    bottom: 300px;
-}
-
-.top_cloud{
-    position: absolute;
-    top: 50px;    
-    right: 300px;
-}
-.imageSize{
-    background-color: lightsteelblue;
-    border-radius: 50%;
-    padding: 10px;
-    height: 150px;
-    width: 150px;
-}
-
-.androidImage{
-    padding: 30px;
-    margin-right: 20px;
-    float: left;
-    border-radius: 50%;
-    width: 20%;
-
-}
-
-.javaImage{
-    padding: 30px;
-    float: right;
-    margin-right: 20px;
-    width: 20%;
-
-}
-
-.webImage{
-    padding: 30px;
-    float: left;
-    border-radius: 50%;
-    margin-right: 20px;
-    width: 20%;
-
-}
-
-.photoImage{
-    padding: 30px;
-    float: right;
-    width: 20%;
-    margin-right: 20px;
-}
-
-
-
-.touch{
-
-    margin-top: 40px;
-
+.btn:hover {
+  text-decoration-line: none;
+  margin: 30px;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.877);
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  padding: 15px;
+  background-color: #66bfbf;
 }
 
 /**
